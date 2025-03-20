@@ -93,6 +93,23 @@
             margin-left: 50%;
             transform: translateX(-50%);
         }
+
+        #four {
+    width: 400px;
+    height:400px;
+    background:darkslategray;
+    background-image:url("raccoon-silly-raccoon.gif");
+    background-size: cover;
+    background-position: center center;
+    margin: 80px;
+    transition:background 0.1s, transform 20s; 
+    margin-left: auto;
+    margin-right: auto;
+}
+#four:hover {
+    transform: rotate(200000deg)scaleX(5);
+    }
+
     </style>
 
 </head>
@@ -116,7 +133,7 @@
         <li><a href="transition.html">Transitions Demo</a></li>
     </ul>
 
-    <img src="raccoon-silly-raccoon.gif" alt="picture description">
+    <div id="four"></div>
 
 </body>
 
