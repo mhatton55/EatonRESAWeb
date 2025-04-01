@@ -1,0 +1,70 @@
+<!doctype html>
+            
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>positioning</title>
+<style>
+div {
+    background:rgb(181, 200, 189);
+    width: 200px;
+    height: 500px;
+    border: 2px solid #0d292f;
+    margin: 30px;
+}
+   
+#one {
+    position:static;
+}
+
+#two {
+    background:cornflowerblue;
+    position:relative;
+    left:100px;
+    top:-100px;
+}
+
+#three {
+background:rgb(170, 114, 223);
+position:absolute;
+left:300px;
+}
+
+#four {
+    background:rgb(53, 53, 141);
+position:fixed;
+right:0;
+bottom:0;
+}
+
+#five {
+background:#345b63;
+position:sticky;
+top:0;
+z-index:100
+}
+
+a {
+    color:#132d32;
+
+}
+</style>
+</head>
+            
+<body>
+
+<h1>Positioning</h1>
+
+<div id="one"></div>
+<div id="five"></div>
+<div id="two"></div>
+<div id="three"></div>
+<div id="four"></div>
+
+
+</body>
+
+</html>
+
+<li><a href="index.html">Index</a></li>
