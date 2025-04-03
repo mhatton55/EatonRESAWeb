@@ -1,0 +1,57 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>Float Demo</title>
+    <style>
+        body {
+            background:rgb(132, 132, 201)
+        }
+
+        h1 {
+            color:rgb(54, 12, 96)
+        }
+
+        .right {
+            float: right;
+            margin-left: 20px;
+        }
+
+        .right::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .left {
+            float: left;
+            margin-left: 20px;
+        }
+
+        .left::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <h1>Float Demo</h1>
+
+    <img class="right" src="pineapple.jpg" alt="spongebob's house" />
+    <p>ergebverver er verver ergv eve eerve er ver er er er ver eerger erge rdr gere e er erg erg erg erg er ger </p>
+    <p>ergebverver er verver ergv eve eerve er ver er er er ver eerger erge rdr gere e er erg erg erg erg er ger </p>
+    <p>ergebverver er verver ergv eve eerve er ver er er er ver eerger erge rdr gere e er erg erg erg erg er ger </p>
+
+    <img class="left" src="pineapple.jpg" alt="spongebob's house" />
+    <p>ergebverver er verver ergv eve eerve er ver er er er ver eerger erge rdr gere e er erg erg erg erg er ger </p>
+    <p>ergebverver er verver ergv eve eerve er ver er er er ver eerger erge rdr gere e er erg erg erg erg er ger </p>
+    <p>ergebverver er verver ergv eve eerve er ver er er er ver eerger erge rdr gere e er erg erg erg erg er ger </p>
+</body>
+
+</html>
