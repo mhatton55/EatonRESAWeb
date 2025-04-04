@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>my index page</title>
+    <style>
+.container {  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 150px 650px 200px;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Header Header Header"
+    "sideleft main sideright"
+    "footer footer footer";
+}
+
+.Header { grid-area: Header;
+background:rgb(52, 80, 80);
+color:rgb(8, 12, 30);
+text-align: center;
+padding:20px;
+}
+
+.sideleft { grid-area: side left; 
+background:#445f6f;
+text-align: center;
+}
+
+.main { grid-area: main; 
+background:cadetblue;
+padding:30px
+}
+
+.sideright { grid-area: sideright; 
+background:#445f6f;
+text-align: center;
+}
+
+.footer { grid-area: footer; 
+background:#445;
+padding:20px
+}
+
+img {
+    height:200px
+}
+
+li a {
+    color:rgb(211, 218, 225)
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="Header">
+            <h1>Pigeons</h1>
+            <li><a href="index.html">Homepage</a></li>
+        </div>
+        <div class="sideleft">
+            <H3>Best Birds</H3>
+            <img src="Pigeon3.jpg" alt="pigeon image two!!!!!!!!!!!">
+            <p>They work for the government</p>
+             <p>They are very silly</p>
+        </div>
+        <div class="main">
+
+            <H3>Best Birds</H3>
+            <img src="Pigeon1.jpg" alt="pigeon image one!!!">
+            <H3>Some Pigeons Are War Veterans</H3>
+            <p>During the 20th century it was common for countries to have flocks of homing pigeons for military use. The birds could quickly deliver important messages between bases or across enemy lines. Pigeons are credited with saving thousands of lives through the information they so diligently delivered, commonly known as pigeon post.</p>
+            <p>One pigeon named G.I. Joe saved British troops from a bombing with just 5 minutes to spare, earning him a medal of honor. Another famous pigeon, Cher Ami, delivered a total of 12 important messages for the U.S. military during WWI. On his last mission, Cher Ami was shot in the breast and still managed to fly for another 25 minutes, completing his mission and saving the lives of 194 stranded soldiers.</p>
+        </div>
+        <div class="sideright">
+            <H3>Stupid Birds</H3>
+            <img src="Pigeon2.jpg" alt="pigeon image two!!!!!!!!!!!">
+            <H3>Fun Facts</H3>
+            <p>The word pigeon comes from the french word for “young dove” . Turns out doves and pigeons are of the same family, possibly the same species! No ornithologist found a difference between the two.
+            <P>Incidentally, there are no natural white doves in the world. White doves are a result of hundreds of years of domestication.</P>
+            </p>
+        </div>
+        <div class="footer">
+           
+            <H3>Links for my Info</H2>
+            <li><a href="https://www.excelpestservices.com/11-fun-facts-about-pigeons/">ExcelPestPervices</a></li>
+            <li><a href="https://www.nature-anywhere.com/blogs/bird-feeding-academy/7-facts-that-will-make-you-change-your-mind-about-pigeons2?srsltid=AfmBOorqORcQkYgbYvZGyczFe8toLQKkUpU721pOxwqBXtyKnTZevyAi">Nature Anywhere</a></li>
+        </div>
+      </div>
+</body>
+
+</html>
