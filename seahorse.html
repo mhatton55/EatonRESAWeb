@@ -5,11 +5,22 @@
 <head>
   <meta charset="utf-8">
   <title>seahorse serenity</title>
+  <link rel="shortcut icon" href="faviconseahorse.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
   <style>
     body {
       display: grid;
       grid-template-columns: 25% 75%;
-      grid-template-rows: 200px 994px 186px;
+      grid-template-rows: 280px 1050px 186px;
       gap: 0px 0px;
       grid-auto-flow: row;
       grid-template-areas:
@@ -20,25 +31,85 @@
 
     header {
       grid-area: header;
-      background: rgb(168, 199, 231);
-      color: rgb(11, 17, 39)
+      background: rgb(76, 117, 158);
+      color: #0a163b;
+      padding: 25px;
+      font-family: "DynaPuff", system-ui;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+      font-variation-settings:
+        "wdth" 100;
     }
 
     nav {
       grid-area: nav;
-      background: rgb(171, 190, 190);
+      background: rgb(138, 185, 210);
+      font-family: "Atma", system-ui;
+      font-weight: 600;
+      font-style: normal;
     }
 
     article {
       grid-area: article;
-      background: rgb(228, 246, 246);
+      background: rgb(203, 230, 246);
       text-align: center;
+      font-family: "Itim", cursive;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    article h1 {
+      display: block;
+      color: rgb(218, 218, 209);
+      text-decoration: none;
+      background: rgb(32, 73, 99);
+      display: block;
+      width: 950px;
+      height: 35px;
+      text-align: auto;
+      margin: 5px;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 100px;
+    }
+
+    article h2 {
+      display: block;
+      color: rgb(5, 5, 53);
+      text-decoration: none;
+      background: rgb(87, 121, 139);
+      display: block;
+      width: 500px;
+      text-align: center;
+      margin: 5px;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 40px;
+      height: 35px;
+    }
+
+    article p {
+      display: block;
+      color: rgb(2, 2, 22);
+      text-decoration: none;
+      background: rgb(119, 165, 170);
+      display: block;
+      width: 900px;
+      text-align: center;
+      margin: 5px;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 7px;
+      height: 70px;
     }
 
     footer {
       grid-area: footer;
-      background: rgb(147, 176, 220);
-      text
+      background: rgb(44, 65, 97);
+      font-family: "Atma", system-ui;
+      font-weight: 600;
+      font-style: normal;
     }
 
     nav ul {
@@ -49,16 +120,16 @@
 
     nav li a {
       display: block;
-      color: rgb(2, 2, 22);
+      color: rgb(10, 10, 71);
       text-decoration: none;
-      background: rgb(119, 165, 170);
+      background: rgb(69, 138, 155);
       display: block;
-      width: 170px;
+      width: 240px;
       text-align: center;
       margin: 25px;
       margin-left: auto;
       margin-right: auto;
-      border-radius: 7px;
+      border-radius: 100px;
       height: 25px;
     }
 
@@ -75,7 +146,7 @@
       display: block;
       color: rgb(2, 2, 22);
       text-decoration: none;
-      background: rgb(119, 165, 170);
+      background: rgb(81, 132, 152);
       width: 350px;
       text-align: center;
       height: 25px;
@@ -85,18 +156,18 @@
     }
 
     footer li a:hover {
-      background: #223f47;
+      background: #0d1b4b;
       color: rgb(214, 223, 230);
     }
 
     footer h3 {
       display: block;
-      color: rgb(17, 17, 57);
+      color: rgb(12, 28, 83);
       text-decoration: none;
-      background: rgb(102, 149, 154);
+      background: rgb(87, 142, 191);
       width: 550px;
       text-align: center;
-      border-radius: 10px;
+      border-radius: 70px;
       height: 25px;
       margin: 5px;
       margin-left: auto;
@@ -105,23 +176,57 @@
     }
 
     footer p {
-      color:rgb(1, 0, 0);
-      text-align:center;
+      color: rgb(156, 183, 185);
+      text-align: center;
     }
 
+    article img {
+      height: 272px;
+      width: 300px;
+    }
+
+    .right {
+      float: right;
+      margin-left: 20px;
+    }
+
+    .right::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    header img {
+      height: 250px;
+      width: 350px;
+      position: relative;
+      left: 650px;
+      top: -190px;
+    }
+
+    #one {
+      background: #5d978c;
+      width: 160px;
+      height: 100px;
+      border: 4px dashed #cae7fe;
+      box-shadow: 15px 15px 0px #172f3b;
+      border-radius: 40px;
+      margin: 0px;
+      padding: 40px;
+    }
   </style>
 </head>
 
 <body>
-
   <header>
-    <h1>Seahorse Serenity</h1>
-    <img src="#" alt="seahorses are fun" />
+    <div id="one">
+      <h1>Seahorse Serenity</h1>
+    </div>
+    <img src="Seahorse4.png" alt="seahorses are fun" />
   </header>
 
   <nav>
     <ul>
-
       <li><a href="#">Seahorse Home</a></li>
       <li><a href="#">Seahorse News</a></li>
       <li><a href="#">Seahorse Science</a></li>
@@ -132,8 +237,11 @@
   </nav>
 
   <article>
-    <img src="#" alt="seahorses are fun" />
+
+    <img class=right src="seahorse5.png" alt="seahorses are fun" />
+
     <h1>SEAHORSE FACTS</h1>
+
     <h2>Name</h2>
     <p>The Latin name for seahorse is Hippocampus which means "Horse
       Caterpillar"</p>
@@ -160,11 +268,11 @@
     <p>Seahorses have a prehensile tail. This allows them to grip onto
       eelgrass and other weeds and prevents them from being washed away by
       strong currents and waves.</p>
-    <h2>Colour</h2>
-    <p>Seahorses can change colour very quickly and match any surroundings in
+    <h2>Color</h2>
+    <p>Seahorses can change color very quickly and match any surroundings in
       which it finds itself. They have even been known to turn bright red to
       match floating debris.</p>
-    <p>Both males and females also change colour during their courtship
+    <p>Both males and females also change color during their courtship
       display.</p>
     <h2>Body</h2>
     <p>Unlike most other fish, seahorses have an exoskeleton. Their bodies are
@@ -182,6 +290,7 @@
       <li><a href="http://www.allthesea.com/Seahorses.html" target="_blank">All
           The Sea</a></li>
     </ul>
+
     <p>&copy; Seahorse Serenity 2025</p>
   </footer>
 </body>
