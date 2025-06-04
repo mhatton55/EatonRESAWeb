@@ -1,127 +1,252 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>W3.CSS Template</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif;}
 
-</style>
+<head>
+  <title>W3.CSS Template</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ole&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Raleway", sans-serif;
+    }
+
+    #portfolio {
+      background: rgb(30, 43, 34);
+      color: rgb(33, 71, 87);
+    }
+
+    #portfolio h1 {
+      background: rgb(30, 43, 34);
+      color: rgb(208, 218, 194);
+      font-family: "Ole", cursive;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 70px;
+    }
+
+    #one {
+      background: rgb(177, 188, 178);
+      color: rgb(30, 43, 34);
+      font-family: "Grandstander", cursive;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+    }
+
+    #two {
+      background: rgb(177, 188, 178);
+      color: rgb(30, 43, 34);
+      font-family: "Grandstander", cursive;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+    }
+
+    #three {
+      background: rgb(177, 188, 178);
+      color: rgb(30, 43, 34);
+      font-family: "Grandstander", cursive;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+    }
+
+    #four {
+      background: rgb(30, 43, 34);
+      color: rgb(163, 192, 181);
+      font-family: "Grandstander", cursive;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+    }
+
+    #five {
+      background: rgb(156, 175, 161);
+      color: rgb(30, 43, 34);
+      font-family: "Grandstander", cursive;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+    }
+
+    #six {
+      background: rgb(184, 202, 196);
+      font-family: "Grandstander", cursive;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+    }
+
+    #seven {
+      background: rgb(147, 167, 153);
+      color: rgb(30, 43, 34);
+    }
+
+    #nine {
+      background: rgb(208, 223, 213);
+      color: rgb(30, 43, 34);
+    }
+
+    #box {
+      background: rgb(204, 215, 215);
+    }
+  </style>
 </head>
+
 <body class="w3-light-grey w3-content" style="max-width:1600px"></body>
 
 
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
-  <div class="w3-container">
-    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+<nav class="w3-sidebar w3-collapse w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div id="seven" class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey"
+      title="close menu">
       <i class="fa fa-remove"></i>
     </a>
-    <img src="FinalLogo.jpg" style="width:45%;" class="w3-round"><br><br>
     <h4><b>MARISSA'S PORTFOLIO</b></h4>
     <p class="w3-text-grey"></p>
   </div>
-  <div class="w3-bar-block">
-    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a> 
-    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
-    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+  <div id="nine" class="w3-bar-block">
+    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i
+        class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a>
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i
+        class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i
+        class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
   </div>
 </nav>
 
 <!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer"
+  title="close side menu" id="myOverlay"></div>
 
 <!-- !PAGE CONTENT! -->
 <div class="w3-main" style="margin-left:300px">
 
   <!-- Header     -->
   <header id="portfolio">
-    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i
+        class="fa fa-bars"></i></span>
     <div class="w3-container w3-text-black">
-    <h1><b>My Portfolio</b></h1>
+      <h1>Marissa's Portfolio</h1>
 
     </div>
   </header>
-  
+
   <!-- First Photo Grid-->
-  <div class="w3-row-padding">
-    <h3>Best Work Gallery - My favorite work from the year.</h3>
+  <div id="one" class="w3-row-padding">
+    <h3><b>Best Work Gallery</b> - My favorite work from the year.</h3>
     <div class="w3-third w3-container w3-margin-bottom">
       <img src="PropagandaPoster3.jpg" alt="Recycle Poster" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white" >
+      <div id="box" class="w3-container ">
         <p><b>Recycling Poster</b></p>
-        <p>For this assignment I made a poster based on being creative and repurposing things. I included it into my portfolio because it shows my great design skills like creating good color palettes and making one coherent piece.</p>
+        <p>For this assignment I made a poster based on being creative and repurposing things. I included it into my
+          portfolio because it shows my great design skills like creating good color palettes and making one coherent
+          piece.</p>
       </div>
     </div>
     <div class="w3-third w3-container w3-margin-bottom">
       <img src="FinalLogo.jpg" alt="Logo" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
+      <div id="box" class="w3-container">
         <p><b>Personal Logo</b></p>
-        <p>For this assignment I designed a seed packet for a “macaron plant.” I choose to include this piece because it’s a good representation of my design skills like, color palette, typography, and overall style. I used a mix of symmetry for the background, and used asymmetry to make the center stand out. I also used a technique of only coloring the macarons to make it stand out.</p></div>
+        <p>For this assignment I designed a logo for myself, using things like a record, because I like music, and a
+          compass rose to represent my love for geography. I choose to include this piece because I am very proud of
+          this design. I took elements of my personality to create a good looking design and I think that's a good
+          representation of my design skills.</p>
+      </div>
     </div>
     <div class="w3-third w3-container">
       <img src="DesignChallengeSeeds.jpg" alt="Seed Design Challenge" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
-        <p><b>Seed Design Challenge</b></p>
-        <p>For this assignment I designed a logo for myself, using things like a record, because I like music, and a compass rose to represent my love for geography. I choose to include this piece because I am very proud of this design. I took elements of my personality to create a good looking design and I think that's a good representation of my design skills.</p>
-      </div>
-    </div>
-  </div>
-  
-  <!-- Second Photo Grid-->
-  <div class="w3-row-padding">
-    <h3>102 2D Design Gallery</h3>
-    <div class="w3-third w3-container w3-margin-bottom">
-      <img src="Marissa-asymmetry.jpg" alt="Raccoon and Possum In Space" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
-        <p><b>Raccoon and Possum in Space</b></p>
-        <p>For this assignment I designed a picture using asymmetry. I included this piece in my portfolio because it represents where I first started, this was my first project in this class and my first time using photoshop.</p>
-      </div>
-    </div>
-    <div class="w3-third w3-container w3-margin-bottom">
-      <img src="BookcoverValueDesign5.jpg" alt="Book cover" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
-        <p><b>Book Cover</b></p>
-        <p>For this assignment I designed a book cover. I included this because I did a good job designing a good looking cover. I believe that you can get a good sense of the book genre by looking at this cover and I wanted to show off this skill.</p>
-      </div>
-    </div>
-    <div class="w3-third w3-container">
-      <img src="HattonSpaceDepth.jpg" alt="Line of trees" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
-        <p><b>Tree Depth</b></p>
-        <p>For this assignment I used the sense of depth to create a realistic picture. I used shadows and highlights to add depth, making the piece look more realistic. I chose to include this piece because it is a good representation of my skills in creating depth.</p>
+      <div id="box" class="w3-container">
+        <p><b>Seed Design Challenge</b>For this assignment I designed a seed packet for a “macaron plant.” I choose to include this piece because
+          it’s a good representation of my design skills like, color palette, typography, and overall style. I used a
+          mix of symmetry for the background, and used asymmetry to make the center stand out. I also used a technique
+          of only coloring the macarons to make it stand out. </p>
+        <p></p>
       </div>
     </div>
   </div>
 
-  
-   <!-- Third Photo Grid-->
-   <div class="w3-row-padding">
-    <h3>171 Photoshop Gallery</h3>
+  <!-- Second Photo Grid-->
+  <div id="two" class="w3-row-padding">
+    <h3><b>102 2D Design Gallery - </b>Assignments based on vocabulary like asymmetry, value, and space.</h3>
     <div class="w3-third w3-container w3-margin-bottom">
-      <img src="DigitalPaintingDemo.jpg" alt="Crow Edit" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
-        <p><b>Crow</b></p>
-        <p>For this assignment I took a photograph, and put brush to create different effects. I used elements like blurring the background to create emphasis on the center of the portrait, the crow. I used a circle motion to create a flow that goes around the bird again to create emphasis. I chose to include this piece because it shows my skills in editing to create a nice looking piece. </p>
+      <img src="Marissa-asymmetry.jpg" alt="Raccoon and Possum In Space" style="width:100%" class="w3-hover-opacity">
+      <div id="box" class="w3-container">
+        <p><b>Raccoon and Possum with a Night Sky</b></p>
+        <p>For this assignment I designed a picture using asymmetry. I included this piece in my portfolio because I
+          like the design. It is a good representation of my skills.</p>
       </div>
     </div>
     <div class="w3-third w3-container w3-margin-bottom">
-      <img src="SkillsUSAFinalDesign.jpg" alt="SkillsUSA Michigan pin design" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
-        <p><b>SkillsUSA pin</b></p>
-        <p>This assignment was for skills USA. I made a pin design representing Michigan. I used contrasting colors for emphasis of the word Michigan and I created a cool design using a light house to represent Michigan for the lots of light houses we have. I chose to include this because I love how I designed it and am very proud with the outcome, I included it because I believe it's one of my best deisngs. 
+      <img src="BookcoverValueDesign5.jpg" alt="Book cover" style="width:100%" class="w3-hover-opacity">
+      <div id="box" class="w3-container">
+        <p><b>Book Cover</b></p>
+        <p>For this assignment I designed a book cover. I included this because I did a good job designing a good
+          looking cover. I believe that you can get a good sense of the book genre by looking at this cover and I wanted
+          to show off this skill.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="HattonSpaceDepth.jpg" alt="Line of trees" style="width:100%" class="w3-hover-opacity">
+      <div id="box" class="w3-container">
+        <p><b>Tree Depth</b></p>
+        <p>For this assignment I used the sense of depth to create a realistic picture. I used shadows and highlights to
+          add depth, making the piece look more realistic. I chose to include this piece because it is a good
+          representation of my skills in creating depth.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Third Photo Grid-->
+  <div id="three" class="w3-row-padding">
+    <h3><b>171 Photoshop Gallery - </b> Assignments based on photoshop design.
+    </h3>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="DigitalPaintingDemo.jpg" alt="Crow Edit" style="width:100%" class="w3-hover-opacity">
+      <div id="box" class="w3-container">
+        <p><b>Crow</b></p>
+        <p>For this assignment I took a photograph, and put brush to create different effects. I used elements like
+          blurring the background to create emphasis on the center of the portrait, the crow. I used a circle motion to
+          create a flow that goes around the bird again to create emphasis. I chose to include this piece because it
+          shows my skills in editing to create a nice looking piece. </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="SkillsUSAFinalDesign.jpg" alt="SkillsUSA Michigan pin design" style="width:100%"
+        class="w3-hover-opacity">
+      <div id="box" class="w3-container">
+        <p><b>SkillsUSA Pin</b></p>
+        <p>This assignment was for skills USA. I made a pin design representing Michigan. I used contrasting colors for
+          emphasis of the word Michigan and I created a cool design using a light house to represent Michigan for the
+          lots of light houses we have. I chose to include this because I love how I designed it and am very proud with
+          the outcome, I included it because I believe it's one of my best deisngs.
         </p>
       </div>
     </div>
     <div class="w3-third w3-container">
       <img src="CurrencyAnimal.jpg" alt="Red panda currency" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
+      <div id="box" class="w3-container">
         <p><b>Animal Currency</b></p>
-        <p>For this assignment we made a currency around an animal, I chose a red panda. I included this price because it shows off my techniques like layout and composition. </p>
+        <p>For this assignment we made a currency around an animal, I chose a red panda. I included this price because
+          it shows off my techniques like layout and composition. </p>
       </div>
     </div>
   </div>
@@ -132,94 +257,100 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif;}
     </div>
   </div>
 
-  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
-    <h4><b>About Me</b></h4>
-    <p>Hello, this is Marissa Hatton. I am a student at the Digital Media & Design program at Eaton RESA and this is my Web Portfolio for Arts 102. My interests include drawing (charcoal, color pencil, and alcohol marker), painting (watercolor and acrylics), learning history and languages, currently I'm learning German, Spanish, French, and Italian.</p>
-    <hr>
-    
-<!-- Resume -->
-  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
-    <h3><b>Resume</b></h4>
-    <h5>Education</h5>
-    <li>Maple Valley Jr/Sr High School, Vermontville 2022-2025</li>
-    <li>Eaton RESA Career Prep Center Digital Media, Lansing 2024-2025</li>
-<h4>Past Commissions/Experiance</h4>
-<li>Freelance Artist
-    September 2023
-    Commissioned a pastel drawing of a deer for Mark Shalden</li>
-<li>Freelance Artist
-    May  2024
-    Commissioned a watercolor painting of a bird for Jenny McDonald</li>
-<li>Freelance Artist
-    July 2024
-    Commissioned a pastel drawing of a dog for Branden Holton</li>
-<h4>Awards</h4>
-<li>Charlotte Optimist Award</li>
-<li>SkillsUSA Ad Design</li>
-
+  <div id="four" class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h2><b>About Me</b></h2>
+    <p>Hello, this is Marissa Hatton. I am a student at the Digital Media & Design program at Eaton RESA and this is my
+      Web Portfolio for Arts 102. My interests include drawing (charcoal, color pencil, and alcohol marker), painting
+      (watercolor and acrylics), learning history and languages, currently I'm learning German, Spanish, French, and
+      Italian.</p>
     <hr>
 
-<!-- Contact Section -->
-<div class="w3-container w3-padding-large w3-grey">
-    <h4 id="contact"><b>Contact Me</b></h4>
-    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
-      <div class="w3-third w3-black">
-        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
-        <p>mahatton@gmail.com</p>
-      </div>
-      <div class="w3-third w3-teal">
-        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
-        <p>Linkedin - <a href="https://www.linkedin.com/in/marissa-hatton-33469b346/">Marissa Hatton</a></p>
-      </div>
-      <div class="w3-third w3-black">
-        <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
-        <p>269-525-8187</p>
-      </div>
+    <!-- Resume -->
+    <div id="five" class="w3-container w3-padding-large " style="margin-bottom:32px width: 3px">
+      <h3><b>Resume</b></h4>
+        <h5>Education</h5>
+        <li>Maple Valley Jr/Sr High School, Vermontville 2022-2025</li>
+        <li>Eaton RESA Career Prep Center Digital Media, Lansing 2024-2025</li>
+        <h4>Past Commissions/Experiance</h4>
+        <li>Freelance Artist
+          September 2023
+          Commissioned a pastel drawing of a deer for Mark Shalden</li>
+        <li>Freelance Artist
+          May 2024
+          Commissioned a watercolor painting of a bird for Jenny McDonald</li>
+        <li>Freelance Artist
+          July 2024
+          Commissioned a pastel drawing of a dog for Branden Holton</li>
+        <h4>Awards</h4>
+        <li>Charlotte Optimist Award</li>
+        <li>SkillsUSA Ad Design</li>
+
+        <hr>
+
+        <!-- Contact Section -->
+        <div id="six" class="w3-container w3-padding-large">
+          <h4 id="contact"><b>Contact Me</b></h4>
+          <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+            <div class="w3-third w3-black">
+              <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+              <p>mahatton35@gmail.com</p>
+            </div>
+            <div class="w3-third w3-dark-grey">
+              <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+              <p>Linkedin - <a href="https://www.linkedin.com/in/marissa-hatton-33469b346/">Marissa Hatton</a></p>
+            </div>
+            <div class="w3-third w3-black">
+              <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+              <p>1-269-525-8187</p>
+            </div>
+          </div>
+          <hr class="w3-opacity">
+          <form action="/action_page.php" target="_blank">
+            <div class="w3-section">
+              <label>Name</label>
+              <input class="w3-input w3-border" type="text" name="Name" required>
+            </div>
+            <div class="w3-section">
+              <label>Gmail</label>
+              <input class="w3-input w3-border" type="text" name="Email" required>
+            </div>
+            <div class="w3-section">
+              <label>Message</label>
+              <input class="w3-input w3-border" type="text" name="Message" required>
+            </div>
+            <button type="submit" class="w3-button w3-black w3-margin-bottom"><i
+                class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
+          </form>
+        </div>
+
+        <!-- Footer -->
+        <footer class="w3-container w3-padding-32 w3-dark-grey">
+          <div class="w3-row-padding">
+            <div class="w3-third">
+              <h3>FOOTER</h3>
+            </div>
+
+        </footer>
+
+        <div class="w3-black w3-center w3-padding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp"
+            title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
+
+        <!-- End page content -->
     </div>
-    <hr class="w3-opacity">
-    <form action="/action_page.php" target="_blank">
-      <div class="w3-section">
-        <label>Name</label>
-        <input class="w3-input w3-border" type="text" name="Name" required>
-      </div>
-      <div class="w3-section">
-        <label>Gmail</label>
-        <input class="w3-input w3-border" type="text" name="Email" required>
-      </div>
-      <div class="w3-section">
-        <label>Message</label>
-        <input class="w3-input w3-border" type="text" name="Message" required>
-      </div>
-      <button type="submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
-    </form>
-  </div>
 
-  <!-- Footer -->
-  <footer class="w3-container w3-padding-32 w3-dark-grey">
-  <div class="w3-row-padding">
-    <div class="w3-third">
-      <h3>FOOTER</h3>
-    </div>
-  
-  </footer>
-  
-  <div class="w3-black w3-center w3-padding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
+    <script>
+      // Script to open and close sidebar
+      function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+      }
 
-<!-- End page content -->
-</div>
+      function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+      }
+    </script>
 
-<script>
-// Script to open and close sidebar
-function w3_open() {
-    document.getElementById("mySidebar").style.display = "block";
-    document.getElementById("myOverlay").style.display = "block";
-}
- 
-function w3_close() {
-    document.getElementById("mySidebar").style.display = "none";
-    document.getElementById("myOverlay").style.display = "none";
-}
-</script>
+    </body>
 
-</body>
 </html>
